@@ -8,3 +8,6 @@
     gate:
       jobs:
         - openstack-tox-linters
+    post:
+      jobs:
+        - publish-stx-governance
