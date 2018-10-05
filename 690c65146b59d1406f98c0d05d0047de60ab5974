@@ -1,0 +1,9 @@
+Code-Review+1: Saul Wold <sgw@linux.intel.com>
+Code-Review+1: Ildiko Vancsa <ildiko.vancsa@gmail.com>
+Workflow+1: Ildiko Vancsa <ildiko.vancsa@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Fri, 05 Oct 2018 14:42:39 +0000
+Reviewed-on: https://review.openstack.org/608076
+Project: openstack/stx-governance
+Branch: refs/heads/master
