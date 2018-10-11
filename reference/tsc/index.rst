@@ -17,6 +17,12 @@ documentation the links below are directly there.
 * `The Four Opens <https://governance.openstack.org/tc/reference/opens.html>`__
 * `StarlingX Charter <stx_charter.html>`__
 
+Current Members
+===============
+
+.. memberstable::
+      :datafile: ../../reference/tsc/members
+
 Indices and Tables
 ==================
 
