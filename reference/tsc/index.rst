@@ -19,6 +19,7 @@ documentation the links below are directly there.
 
 * `The Four Opens <https://governance.openstack.org/tc/reference/opens.html>`__
 * `StarlingX Charter <stx_charter.html>`__
+* `House Rules <house.html>`__
 
 Indices and Tables
 ==================
