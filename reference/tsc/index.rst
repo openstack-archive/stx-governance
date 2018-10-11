@@ -8,7 +8,7 @@ sub-project life-cycle. It defines the overall project architecture and
 sets the overall project priorities in collaboration with the community.
 
 The Technical Steering Committee is the governing body defined in the
-OpenStack Foundation Strategic Focus Area Pilot Project
+OpenStack Foundation Strategic Focus Area Pilot Project.
 
 Reference Documents
 ===================
@@ -19,6 +19,12 @@ documentation the links below are directly there.
 
 * `The Four Opens <https://governance.openstack.org/tc/reference/opens.html>`__
 * `StarlingX Charter <reference/tsc/stx_charter.rst>`__
+
+Current Members
+===============
+
+.. memberstable::
+      :datafile: ../../reference/tsc/members
 
 Indices and Tables
 ==================
