@@ -1,0 +1,153 @@
+---
+config:
+  pl:
+    name: Dariush Eslimi
+    irc:
+    email: Dariush.Eslimi@windriver.com
+  tl:
+    name: John Kung
+    irc:
+    email: John.Kung@windriver.com
+  irc-channel: starlingx
+  service: Configuration
+  mission: >
+    Configure all the things
+  url: https://docs.starlingx.io/stx-config
+  deliverables:
+    config:
+      repos:
+        - stx-config
+
+distcloud:
+  pl:
+    name: Dariush Eslimi
+    irc:
+    email: Dariush.Eslimi@windriver.com
+  tl:
+    name: Bart Wensley
+    irc:
+    email: Barton.Wensley@windriver.com
+  irc-channel: starlingx
+  service: Distributed Cloud
+  mission: >
+    Spreading out the goodness
+  url: https://docs.starlingx.io/stx-distcloud
+  deliverables:
+    fault:
+      repos:
+        - stx-distcloud
+        - stx-distcloud-client
+
+fault:
+  pl:
+    name: Dariush Eslimi
+    irc:
+    email: Dariush.Eslimi@windriver.com
+  tl:
+    name: Tao Liu
+    irc:
+    email: Tao.Liu@windriver.com
+  irc-channel: starlingx
+  service: Fault Management
+  mission: >
+    Manage the faults
+  url: https://docs.starlingx.io/stx-fault
+  deliverables:
+    fault:
+      repos:
+        - stx-fault
+
+gui:
+  pl:
+    name: Dariush Eslimi
+    irc:
+    email: Dariush.Eslimi@windriver.com
+  tl:
+    name: Tyler Smith
+    irc:
+    email: Tyler.Smith@windriver.com
+  irc-channel: starlingx
+  service: Dashboard Plugin
+  mission: >
+    Web GUI
+  url: https://docs.starlingx.io/stx-gui
+  deliverables:
+    fault:
+      repos:
+        - stx-gui
+
+ha:
+  pl:
+    name: Dariush Eslimi
+    irc:
+    email: Dariush.Eslimi@windriver.com
+  tl:
+    name: Bin Quan
+    irc:
+    email: Bin.Qian@windriver.com
+  irc-channel: starlingx
+  service: High Availability
+  mission: >
+    Stayin' Alive
+  url: https://docs.starlingx.io/stx-ha
+  deliverables:
+    fault:
+      repos:
+        - stx-ha
+
+metal:
+  pl:
+    name: Ken Young
+    irc:
+    email: Ken.Young@windriver.com
+  tl:
+    name: Eric MacDonald
+    irc:
+    email: Eric.MacDonald@windriver.com
+  irc-channel: starlingx
+  service: Bare Metal Management
+  mission: >
+    Tin Cans 'R Us'
+  url: https://docs.starlingx.io/stx-metal
+  deliverables:
+    fault:
+      repos:
+        - stx-metal
+
+nfv:
+  pl:
+    name: Frank Miller
+    irc:
+    email: Frank.Miller@windriver.com
+  tl:
+    name: Bart Wensley
+    irc:
+    email: Barton.Wensley@windriver.com
+  irc-channel: starlingx
+  service: Network Function Virtualization
+  mission: >
+    Don't just stand there, do something!
+  url: https://docs.starlingx.io/stx-nfv
+  deliverables:
+    fault:
+      repos:
+        - stx-nfv
+
+update:
+  pl:
+    name: Dariush Eslimi
+    irc:
+    email: Dariush.Eslimi@windriver.com
+  tl:
+    name: Don Penney
+    irc:
+    email: Don.Penney@windriver.com
+  irc-channel: starlingx
+  service: Software Update
+  mission: >
+    Keeping up with the neighbors
+  url: https://docs.starlingx.io/stx-update
+  deliverables:
+    fault:
+      repos:
+        - stx-update

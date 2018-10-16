@@ -16,8 +16,9 @@
 import re
 
 from docutils import nodes
-from docutils.parsers.rst.directives.tables import Table
 from docutils.parsers.rst import directives
+from docutils.parsers.rst.directives.tables import Table
+from docutils.utils import SystemMessagePropagation
 
 # Full name (IRC) <E-mail> [expires in] {role}
 _PATTERN = re.compile('(?P<name>.*)\s+\((?P<irc>.*)\)\s+\<(?P<email>.*)\>\s+\[(?P<date>.*)\](\s+\{(?P<role>.*)\})?')  # noqa
@@ -62,7 +63,6 @@ class MembersTable(Table):
     def run(self):
         env = self.state.document.settings.env
         app = env.app
-        config = app.config
 
         # The required argument to the directive is the name of the
         # file to parse.
@@ -88,7 +88,7 @@ class MembersTable(Table):
                 'Error processing memberstable directive:\n%s' % err,
                 nodes.literal_block(self.block_text, self.block_text),
                 line=self.lineno,
-                )
+            )
             return [error]
 
         # Now find the real path to the file, relative to where we are.
