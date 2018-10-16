@@ -15,8 +15,9 @@
 import re
 
 from docutils import nodes
-from docutils.parsers.rst.directives.tables import Table
 from docutils.parsers.rst import directives
+from docutils.parsers.rst.directives.tables import Table
+from docutils.utils import SystemMessagePropagation
 from sphinx.util import logging
 
 LOG = logging.getLogger(__name__)
@@ -64,7 +65,6 @@ class MembersTable(Table):
     def run(self):
         env = self.state.document.settings.env
         app = env.app
-        config = app.config
 
         # The required argument to the directive is the name of the
         # file to parse.
@@ -90,7 +90,7 @@ class MembersTable(Table):
                 'Error processing memberstable directive:\n%s' % err,
                 nodes.literal_block(self.block_text, self.block_text),
                 line=self.lineno,
-                )
+            )
             return [error]
 
         # Now find the real path to the file, relative to where we are.
