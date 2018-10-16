@@ -10,14 +10,16 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-"""Build a table of the current members
-"""
+"""Build a table of the current members"""
 
 import re
 
 from docutils import nodes
 from docutils.parsers.rst.directives.tables import Table
 from docutils.parsers.rst import directives
+from sphinx.util import logging
+
+LOG = logging.getLogger(__name__)
 
 # Full name (IRC) <E-mail> [expires in] {role}
 _PATTERN = re.compile('(?P<name>.*)\s+\((?P<irc>.*)\)\s+\<(?P<email>.*)\>\s+\[(?P<date>.*)\](\s+\{(?P<role>.*)\})?')  # noqa
@@ -33,7 +35,7 @@ def _parse_members_file(app, filename):
                 continue
             m = _PATTERN.match(line)
             if not m:
-                app.warning('Could not parse line %d of %s: %r' %
+                LOG.warning('Could not parse line %d of %s: %r' %
                             (linum, filename, line))
                 continue
             yield m.groupdict()
@@ -152,5 +154,5 @@ class MembersTable(Table):
 
 
 def setup(app):
-    app.info('loading members extension')
+    LOG.info('loading members extension')
     app.add_directive('memberstable', MembersTable)
