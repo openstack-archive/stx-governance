@@ -18,6 +18,11 @@ documentation the links below are directly there.
 * `StarlingX Charter <stx_charter.html>`__
 * `House Rules <house.html>`__
 
+.. toctree::
+   :maxdepth: 1
+
+   projects/index
+
 Current Members
 ===============
 

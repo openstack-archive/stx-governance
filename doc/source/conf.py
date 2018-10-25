@@ -43,7 +43,14 @@ release = u'0.1'
 extensions = [
     'members',
     'openstackdocstheme',
+    'projects',
+    'sphinx.ext.extlinks',
 ]
+
+# Define shorthand roles for making links to common destinations.
+extlinks = {
+    'repo': ('https://git.startlingx.io/cgit/%s', ''),
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
