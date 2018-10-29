@@ -1,0 +1,11 @@
+Code-Review+1: Ian Jolliffe <ian.jolliffe@windriver.com>
+Code-Review+1: Saul Wold <sgw@linux.intel.com>
+Rollcall-Vote+1: Saul Wold <sgw@linux.intel.com>
+Code-Review+1: Ildiko Vancsa <ildiko.vancsa@gmail.com>
+Workflow+1: Ildiko Vancsa <ildiko.vancsa@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Mon, 29 Oct 2018 07:22:58 +0000
+Reviewed-on: https://review.openstack.org/613378
+Project: openstack/stx-governance
+Branch: refs/heads/master
