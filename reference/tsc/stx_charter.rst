@@ -125,33 +125,28 @@ approving new sub-projects and making final decisions if sub-project
 Core Reviewers, Technical Leads or Project Leads disagree.  It defines
 the overall project architecture and sets the overall Project
 Priorities in collaboration with the community.  It will be comprised of
-7 members who will be initially appointed but fully elected by the
-Contributors after the first year.
+9 members 8 of which are initially appointed. The TSC seats will be fully
+elected by the Contributors after the first year.
 
-NOTE: There will be additional updates to this document to clarify the
-timeline and process for electing TSC members.
+The initial Technical Steering Committee members are: Ana Cunha (Ericsson),
+Brent Rowsell (Wind River), Curtis Collicutt (INTERdynamix), Dean Troyer
+(Intel), Ian Jolliffe (Wind River), Miguel Lavalle (Huawei), Saul Wold (Intel),
+and Shuquan Huang (99Cloud).
 
-The initial Technical Steering Committee members will be: Brent
-Rowsell (Wind River), Ian Jolliffe (Wind River), Dean Troyer (Intel)
-and Saul Wold (Intel).  The remaining members are yet to be determined.
-
-NOTE: The paragraph below will be changed in a future version of
-this document.
-
-In September 2019, 3 of the 7 seats are up for election by the project's
-Contributors. Anyone who is a Contributor to the project will be
+After a half year period in the first half of 2019, 5 of the 9 seats are up for
+election by the project's Contributors, 4 of the originally appointed seats and
+the 9th open position. Anyone who is a Contributor to the project will be
 eligible to run, and anyone who is a Contributor is eligible to vote.
 In that election the TSC positions held by one each of the members from
-Wind River and Intel will be opened for election, as well as one of the
-other initially-appointed seats, to be determined randomly (unless one
-of the members voluntarily steps down).
+Wind River and Intel will be opened for election, as well as two of the
+other initially-appointed seats.
 
-In April 2020, the remaining 4 seats are up for election.  At
-that time all initially appointed TSC positions will no longer be
-appointed but will be elected by the Contributors.    TSC Elections
-will continue on a staggered six month cycle (3 seats and 4 seats) in
-order to ensure consistency across terms while allowing new leaders to
-begin to serve. There are no limits on the number of terms an individual
+After an additional half year during the second half of 2019, the remaining 4
+seats are up for election.  At that time all initially appointed TSC positions
+will no longer be appointed but will be fully elected by the Contributors.
+TSC Elections will continue on a staggered six month cycle (5 seats and 4
+seats) in order to ensure consistency across terms while allowing new leaders
+to begin to serve. There are no limits on the number of terms an individual
 may serve, but no single organization may be represented by more than
 two seats at any given time.  In the event that 3 people from the same
 organization are elected to the TSC in one election, the person with the
