@@ -1,13 +1,13 @@
-=====================================
+====================================
 Draft - StarlingX Initial Governance
-=====================================
+====================================
 
 The initial draft of this document with feedback from the reviewers
 `is on this Etherpad <https://etherpad.openstack.org/p/stx-governance>`_.
 
--------------
+------------
 Introduction
--------------
+------------
 
 The StarlingX project is governed according to the OpenStack Foundation's
 `four opens <https://governance.openstack.org/tc/reference/opens.html>`_,
@@ -33,9 +33,9 @@ phase in which the leadership positions will be volunteers.  All
 leadership positions will transition to be elected by the project's
 Contributors within one year.
 
---------------
+-------------
 Project Roles
---------------
+-------------
 
 StarlingX defines the following roles for the project.
 
@@ -55,9 +55,9 @@ Steering Committee positions and for the leadership roles described in this
 document.  Contributors are also eligible to become members of the
 Technical Steering Committee and/or serve in a leadership role.
 
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 Core Reviewer
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 Core Reviewers are active Contributors and participants in a sub-project
 that have the additional responsibility to review the changes proposed
@@ -70,9 +70,9 @@ are appointed by the sub-project Technical Lead with input from other
 StarlingX Core Reviewers.  Contributors can become Core Reviewers for
 multiple sub-projects.
 
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 Technical Lead
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 A Technical Lead in StarlingX is a Core Reviewer who has additional
 responsibility for guiding the overall technical direction of one or
@@ -90,9 +90,9 @@ Technical Lead elections will be held in September of every year starting in
 2019 and will be administered by the TSC or their delegates.  Contributors
 can be Technical Leads for multiple sub-projects.
 
-^^^^^^^^^^^^^
+^^^^^^^^^^^^
 Project Lead
-^^^^^^^^^^^^^
+^^^^^^^^^^^^
 
 A Project Lead in StarlingX is an outside facing role for a StarlingX
 sub-project that is responsible for requirements gathering, tracking
@@ -105,7 +105,7 @@ by the sub-project, as defined by the Project Priorities established by the
 Technical Steering Committee.  The initial Project Leads are appointed to
 one year terms at launch by the Technical Steering Committee but will be
 fully elected by the sub-project's Contributors on an annual basis with
-the first election to be held in April 2019.  Contributors can be
+the first election to be held in September 2019.  Contributors can be
 Project Leads for multiple sub-projects.
 
 The same person can become a Technical Lead and Project Lead for a
@@ -115,9 +115,9 @@ The StarlingX project has split these roles to enable Technical Leaders
 to focus more of their attention on technical issues and to leverage
 the skills and strengths of Project Leaders in the initial community.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Technical Steering Committee
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Technical Steering Committee is responsible for overall project
 architectural decisions, managing the sub-project life-cycle including
@@ -173,9 +173,9 @@ evolve over time based on the needs and growth of the project, but the
 governing body will always be committed to openness, diversity and the
 principle that technical decisions are made by technical contributors.
 
-----------
+---------
 Elections
-----------
+---------
 
 All elections for leadership positions in StarlingX shall follow standard
 OpenStack procedures and methods.  Ballots will be distributed to each
@@ -192,9 +192,9 @@ a company or organization.  Individuals are expected to continue to
 support the project in the event of career changes unless they
 notify the project that they are resigning their position.
 
--------------------
+------------------
 Governance Changes
--------------------
+------------------
 
 The project's formal governance document is maintained in the
 stx-governance git repository.  Changes to the document can be proposed
