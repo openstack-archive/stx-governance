@@ -28,7 +28,7 @@ technical matters such as project architectural decisions and managing the
 sub-project life-cycle. It defines the overall project architecture and
 sets the overall project priorities in collaboration with the community.
 
-.. _`StarlingX Technical Steering Committee`: /governance/tsc/
+.. _`StarlingX Technical Steering Committee`: reference/tsc/
 
 .. toctree::
     :glob:
