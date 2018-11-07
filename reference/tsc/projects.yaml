@@ -33,9 +33,11 @@ distcloud:
     Spreading out the goodness
   url: https://docs.starlingx.io/stx-distcloud
   deliverables:
-    fault:
+    distcloud:
       repos:
         - stx-distcloud
+    distcloud-client:
+      repos:
         - stx-distcloud-client
 
 fault:
@@ -72,7 +74,7 @@ gui:
     Web GUI
   url: https://docs.starlingx.io/stx-gui
   deliverables:
-    fault:
+    gui:
       repos:
         - stx-gui
 
@@ -91,7 +93,7 @@ ha:
     Stayin' Alive
   url: https://docs.starlingx.io/stx-ha
   deliverables:
-    fault:
+    ha:
       repos:
         - stx-ha
 
@@ -110,7 +112,7 @@ metal:
     Tin Cans 'R Us'
   url: https://docs.starlingx.io/stx-metal
   deliverables:
-    fault:
+    metal:
       repos:
         - stx-metal
 
@@ -129,7 +131,7 @@ nfv:
     Don't just stand there, do something!
   url: https://docs.starlingx.io/stx-nfv
   deliverables:
-    fault:
+    nfv:
       repos:
         - stx-nfv
 
@@ -148,6 +150,6 @@ update:
     Keeping up with the neighbors
   url: https://docs.starlingx.io/stx-update
   deliverables:
-    fault:
+    update:
       repos:
         - stx-update
