@@ -1,4 +1,24 @@
 ---
+build:
+  pl:
+    name: Cesar Lara
+    irc:
+    email: cesar.lara@intel.com
+  tl:
+    name: Saul Wold
+    irc: sgw
+    email: sgw@linux.intel.com
+  irc-channel: starlingx
+  mission: >
+    Cloud Builders
+  url: https://wiki.openstack.org/wiki/StarlingX/Build
+  deliverables:
+    build:
+      repos:
+        - stx-manifest
+        - stx-root
+        - stx-tools
+
 config:
   pl:
     name: Dariush Eslimi
@@ -39,6 +59,42 @@ distcloud:
     distcloud-client:
       repos:
         - stx-distcloud-client
+
+distro:
+  pl:
+    name: Cindy Xie
+    irc:
+    email: cindy.xie@intel.com
+  tl:
+    name: Saul Wold
+    irc: sgw
+    email: sgw@linux.intel.com
+  irc-channel: starlingx
+  mission: >
+    The Source of All Good Bits
+  url: https://docs.starlingx.io/
+  deliverables:
+    distro:
+      repos:
+        - stx-integ
+
+docs:
+  pl:
+    name: Michael Tullis
+    irc:
+    email: michael.l.tullis@intel.com
+  tl:
+    name: Abraham Arce Moreno
+    irc:
+    email: abraham.arce.moreno@intel.com
+  irc-channel: starlingx
+  mission: >
+    Explaining us to the world
+  url: https://docs.starlingx.io/
+  deliverables:
+    docs:
+      repos:
+        stx-docs
 
 fault:
   pl:
@@ -134,6 +190,50 @@ nfv:
     nfv:
       repos:
         - stx-nfv
+
+release:
+  pl:
+    name: Ghada Khalil
+    irc:
+    email: Ghada.Khalil@windriver.com
+  tl:
+    name:
+    irc:
+    email:
+  irc-channel: starlingx
+  mission: >
+    Unleashing the power of edge to the world
+  url: https://wiki.openstack.org/wiki/StarlingX/Releases
+
+
+security:
+  pl:
+    name: Ken Young
+    irc:
+    email: Ken.Young@windriver.com
+  tl:
+    name: Ken Young
+    irc:
+    email: Ken.Young@windriver.com
+  irc-channel: starlingx
+  mission: >
+    Keeping an eye on things
+  url: https://wiki.openstack.org/wiki/StarlingX/Security
+  deliverables:
+
+test:
+  pl:
+    name: Ada Cabrales
+    irc:
+    email: ada.cabrales@intel.com
+  tl:
+    name: Jose Perez
+    irc:
+    email: jose.perez.carranza@intel.com
+  irc-channel: starlingx
+  mission: >
+    If it is not tested it is broken
+  url: https://docs.starlingx.io/
 
 update:
   pl:
