@@ -125,8 +125,8 @@ approving new sub-projects and making final decisions if sub-project
 Core Reviewers, Technical Leads or Project Leads disagree.  It defines
 the overall project architecture and sets the overall Project
 Priorities in collaboration with the community.  It will be comprised of
-7 members who will be appointed at Launch but fully elected by the
-Contributors within the first year.
+7 members who will be initially appointed but fully elected by the
+Contributors after the first year.
 
 NOTE: There will be additional updates to this document to clarify the
 timeline and process for electing TSC members.
@@ -142,19 +142,22 @@ In September 2019, 3 of the 7 seats are up for election by the project's
 Contributors. Anyone who is a Contributor to the project will be
 eligible to run, and anyone who is a Contributor is eligible to vote.
 In that election the TSC positions held by one each of the members from
-Wind River and Intel will be opened for election, to be determined
-randomly.  In April 2020, the remaining 4 seats are up for election.  At
+Wind River and Intel will be opened for election, as well as one of the
+other initially-appointed seats, to be determined randomly (unless one
+of the members voluntarily steps down).
+
+In April 2020, the remaining 4 seats are up for election.  At
 that time all initially appointed TSC positions will no longer be
 appointed but will be elected by the Contributors.    TSC Elections
 will continue on a staggered six month cycle (3 seats and 4 seats) in
 order to ensure consistency across terms while allowing new leaders to
 begin to serve. There are no limits on the number of terms an individual
 may serve, but no single organization may be represented by more than
-two seats at any given time.  In the event that 3 people are elected to the
-TSC in one election, the person with the lowest vote count among the
-3 is skipped and the next candidate is elected.  Any other case of more than
-2 people per company on the TSC shall be addressed at the latest at the
-next scheduled election.
+two seats at any given time.  In the event that 3 people from the same
+organization are elected to the TSC in one election, the person with the
+lowest vote count among the 3 is skipped and the next candidate is elected.
+Any other case of more than 2 people per company on the TSC shall be
+addressed at the latest at the next scheduled election.
 
 The Technical Steering Committee will meet regularly in an open forum
 with times and locations published in community channels.  The
