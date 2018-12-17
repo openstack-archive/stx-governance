@@ -1,0 +1,24 @@
+Code-Review+1: Bruce Jones <bruce.e.jones@intel.com>
+Code-Review+1: Dean Troyer <dtroyer@gmail.com>
+Rollcall-Vote+1: Dean Troyer <dtroyer@gmail.com>
+Code-Review+1: Saul Wold <sgw@linux.intel.com>
+Rollcall-Vote+1: Saul Wold <sgw@linux.intel.com>
+Code-Review+1: Ian Jolliffe <ian.jolliffe@windriver.com>
+Rollcall-Vote+1: Ian Jolliffe <ian.jolliffe@windriver.com>
+Code-Review+1: Shuquan Huang <huang.shuquan@99cloud.net>
+Rollcall-Vote+1: Shuquan Huang <huang.shuquan@99cloud.net>
+Code-Review+1: Curtis Collicutt <curtis@serverascode.com>
+Rollcall-Vote+1: Curtis Collicutt <curtis@serverascode.com>
+Code-Review+1: ana <ana.cunha@ericsson.com>
+Rollcall-Vote+1: ana <ana.cunha@ericsson.com>
+Code-Review+1: Brent Rowsell <brent.rowsell@windriver.com>
+Rollcall-Vote+1: Brent Rowsell <brent.rowsell@windriver.com>
+Code-Review+1: Miguel Lavalle <miguel.lavalle@huawei.com>
+Rollcall-Vote+1: Miguel Lavalle <miguel.lavalle@huawei.com>
+Workflow+1: Ildiko Vancsa <ildiko.vancsa@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Mon, 17 Dec 2018 17:52:52 +0000
+Reviewed-on: https://review.openstack.org/610446
+Project: openstack/stx-governance
+Branch: refs/heads/master
