@@ -172,6 +172,20 @@ metal:
       repos:
         - stx-metal
 
+multiOS:
+  pl:
+    name: Cesar Lara
+    irc:
+    email: cesar.lara@intel.com
+  tl:
+    name: TBD
+    irc:
+    email:
+  irc-channel: starlingx
+  mission: >
+    Enable StarlingX to support multiple operating systems
+  url: https://docs.starlingx.io/
+
 nfv:
   pl:
     name: Frank Miller
